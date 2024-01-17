@@ -1,6 +1,3 @@
-Certainly! Below is an example of a `README.md` file that you could use for your Flutter project:
-
-```markdown
 # Flutter Todo Application
 
 This Flutter application provides a simple and intuitive interface for users to manage their tasks. It includes a Login Screen for authentication and a Todo Screen where users can view and interact with their tasks.

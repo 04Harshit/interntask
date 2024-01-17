@@ -1,0 +1,55 @@
+name: interntask
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.7
+  http: ^1.1.0
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/Ills/
+  fonts:
+    - family: Hanken Grotesk
+      fonts:
+      - asset: assets/fonts/hk_grotesk/HankenGrotesk-VariableFont_wght.ttf
+
+    - family: SF Pro
+      fonts:
+      - asset: assets/fonts/sf_pro/SF-Pro.ttf
+
+    - family: SF Pro Display
+      fonts:
+      - asset: assets/fonts/sf_pro/SF-Pro-Display-Bold.otf
+      - asset: assets/fonts/sf_pro/SF-Pro-Display-Regular.otf
+      - asset: assets/fonts/sf_pro/SF-Pro-Display-Heavy.otf
+      - asset: assets/fonts/sf_pro/SF-Pro-Display-Light.otf
+      - asset: assets/fonts/sf_pro/SF-Pro-Display-Semibold.otf
+      - asset: assets/fonts/sf_pro/SF-Pro-Display-Thin.otf
+      - asset: assets/fonts/sf_pro/SF-Pro-Display-Ultralight.otf
+      - asset: assets/fonts/sf_pro/SF-Pro-Display-Black.otf
+
+    - family: SF Pro Text
+      fonts:
+      - asset: assets/fonts/sf_pro/SF-Pro-Text-Bold.otf
+      - asset: assets/fonts/sf_pro/SF-Pro-Text-Regular.otf
+      - asset: assets/fonts/sf_pro/SF-Pro-Text-Heavy.otf
+      - asset: assets/fonts/sf_pro/SF-Pro-Text-Light.otf
+      - asset: assets/fonts/sf_pro/SF-Pro-Text-Semibold.otf
+      - asset: assets/fonts/sf_pro/SF-Pro-Text-Thin.otf
+      - asset: assets/fonts/sf_pro/SF-Pro-Text-Ultralight.otf
+      - asset: assets/fonts/sf_pro/SF-Pro-Text-Black.otf

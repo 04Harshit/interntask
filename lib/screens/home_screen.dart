@@ -58,7 +58,7 @@ class HomeScreen extends StatelessWidget {
                 ActionButton(
                   colour: const Color(0xFF777E8C),
                   onPressed: () {
-                    Navigator.pushNamed(context, '/register');
+                    Navigator.pushNamed(context, '/login');
                   },
                   label: 'Login',
                 ),
